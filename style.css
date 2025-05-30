@@ -3,9 +3,14 @@
     padding: 0;
 }
 
+body {
+    background-image: url(./images/zarunax4.png);
+    justify-items: center;
+}
+
 .box1 {
-    background-image: url(./images/ZARUNAX.png);
     height: 100vh;
+    width: 100vh;
 }
 
 h1 {
@@ -20,15 +25,12 @@ h2 {
     font-size: 50px;
     font-family: 'comic sans', cursive;
     color: white;
-
 }
 
 p {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'comic sans', cursive;
     color: white;
-    padding-left: 200px;
-    padding-right: 200px;
-    text-shadow: black;
+    background-color: black;
 }
