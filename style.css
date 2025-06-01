@@ -3,14 +3,20 @@
     padding: 0;
 }
 
+.hi {
+    position: absolute;
+}
+
 body {
-    background-image: url(./images/zarunax4.png);
+    background-image: url("./images/zarunax4.png");
     justify-items: center;
 }
 
 .box1 {
+    flex-wrap: wrap;
+    align-items: center;
     height: 100vh;
-    width: 100vh;
+    width: 150vh;
 }
 
 h1 {
@@ -27,7 +33,15 @@ h2 {
     color: white;
 }
 
-p {
+.text1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'comic sans', cursive;
+    color: white;
+    background-color: black;
+}
+
+.text2 {
     text-align: center;
     font-size: 20px;
     font-family: 'comic sans', cursive;
